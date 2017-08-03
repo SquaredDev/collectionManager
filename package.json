@@ -1,14 +1,17 @@
 {
   "name": "collectionmanager",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon app"
   },
-  "author": "",
+  "author": "James <boydston.j@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "express": "^4.15.3",
+    "mongodb": "^2.2.30",
+    "mongoose": "^4.10.8",
     "mustache-express": "^1.2.5"
   },
   "devDependencies": {
@@ -20,5 +23,6 @@
     "author": "Michael Sweeney <jfmike@gmail.com> (https://github.com/overthemike)",
     "license": "MIT"
   },
-  "description": ""
+  "description": "",
+  "repository": "git@github.com:SquaredDev/collectionManager.git"
 }
